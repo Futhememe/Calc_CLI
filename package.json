@@ -1,0 +1,54 @@
+{
+  "name": "calccli",
+  "description": "uma cli para fazer calculos",
+  "version": "0.0.0",
+  "author": "Gustavo @Futhememe",
+  "bin": {
+    "calccli": "./bin/run"
+  },
+  "bugs": "https://github.com/Futhememe/Calc_CLI/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3",
+    "cli-ux": "^5.5.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1",
+    "globby": "^10",
+    "rimraf": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json",
+    "/src"
+  ],
+  "homepage": "https://github.com/Futhememe/Calc_CLI",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "commands": "./src/commands",
+    "bin": "calccli",
+    "plugins": [
+      "@oclif/plugin-help"
+    ]
+  },
+  "repository": "Futhememe/Calc_CLI",
+  "scripts": {
+    "postpack": "rimraf oclif.manifest.json",
+    "posttest": "eslint .",
+    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
