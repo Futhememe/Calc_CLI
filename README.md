@@ -45,7 +45,7 @@ USAGE
 
 ```
 
-_See code: [src\commands\plus.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\plus.js)_
+_See code: [src\commands\plus.js](https://github.com/Futhememe/Calc_CLI/blob/master/src/commands/plus.js)_
 
 ## `calccli minus`
 
@@ -57,7 +57,7 @@ USAGE
 
 ```
 
-_See code: [src\commands\minus.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\minus.js)_
+_See code: [src\commands\minus.js](https://github.com/Futhememe/Calc_CLI/blob/master/src/commands/minus.js)_
 
 ## `calccli division`
 
@@ -69,7 +69,7 @@ USAGE
 
 ```
 
-_See code: [src\commands\division.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\division.js)_
+_See code: [src\commands\division.js](https://github.com/Futhememe/Calc_CLI/blob/master/src/commands/division.js)_
 
 ## `calccli multiply`
 
@@ -81,7 +81,7 @@ USAGE
 
 ```
 
-_See code: [src\commands\multiply.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\multiply.js)_
+_See code: [src\commands\multiply.js](https://github.com/Futhememe/Calc_CLI/blob/master/src/commands/multiply.js)_
 
 ## `calccli help [COMMAND]`
 
