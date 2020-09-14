@@ -5,7 +5,6 @@ uma cli para fazer calculos (Estudo)
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/calccli.svg)](https://npmjs.org/package/calccli)
-[![CircleCI](https://circleci.com/gh/Futhememe/Calc_CLI/tree/master.svg?style=shield)](https://circleci.com/gh/Futhememe/Calc_CLI/tree/master)
 [![Downloads/week](https://img.shields.io/npm/dw/calccli.svg)](https://npmjs.org/package/calccli)
 [![License](https://img.shields.io/npm/l/calccli.svg)](https://github.com/Futhememe/Calc_CLI/blob/master/package.json)
 
@@ -16,7 +15,8 @@ uma cli para fazer calculos (Estudo)
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g calccli
+$ npm install
+$ npm link
 $ calccli COMMAND
 running command...
 $ calccli (-v|--version|version)
@@ -29,26 +29,59 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`calccli hello`](#calccli-hello)
+* [`calccli plus`](#calccli-plus)
+* [`calccli minus`](#calccli-minus)
+* [`calccli division`](#calccli-division)
+* [`calccli multiply`](#calccli-multiply)
 * [`calccli help [COMMAND]`](#calccli-help-command)
 
-## `calccli hello`
+## `calccli plus`
 
-Describe the command here
+Use este comando para poder somar dois valores
 
 ```
 USAGE
-  $ calccli hello
+  $ calccli plus
 
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
 ```
 
-_See code: [src\commands\hello.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\hello.js)_
+_See code: [src\commands\plus.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\plus.js)_
+
+## `calccli minus`
+
+Use este comando para poder subtrair dois valores
+
+```
+USAGE
+  $ calccli minus
+
+```
+
+_See code: [src\commands\minus.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\minus.js)_
+
+## `calccli division`
+
+Use este comando para poder dividir dois valores
+
+```
+USAGE
+  $ calccli division
+
+```
+
+_See code: [src\commands\division.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\division.js)_
+
+## `calccli multiply`
+
+Use este comando para poder multiplicar dois números
+
+```
+USAGE
+  $ calccli multiply
+
+```
+
+_See code: [src\commands\multiply.js](https://github.com/Futhememe/Calc_CLI/blob/v0.0.0/src\commands\multiply.js)_
 
 ## `calccli help [COMMAND]`
 
@@ -64,6 +97,4 @@ ARGUMENTS
 OPTIONS
   --all  see all commands in CLI
 ```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src\commands\help.ts)_
 <!-- commandsstop -->
